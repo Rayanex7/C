@@ -10,7 +10,7 @@ int a, b, c, delta;
         scanf("%d", &b);
 	printf("Entrer la valeur de c :");
         scanf("%d", &c);
-	delta = pow(-b, 2) + (4 * a * c);
+	delta = pow(-b, 2) - (4 * a * c);
 	float x1, x2, x3;
 		if(delta > 0)
 		{
